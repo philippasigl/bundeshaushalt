@@ -1,0 +1,4 @@
+# Ignore .conda, Alt, and Backup files/folders
+.conda
+Alt
+Backup
