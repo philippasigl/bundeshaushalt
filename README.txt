@@ -1,6 +1,6 @@
 README
 
-1) Use extract_from_haushalt-pdf.py to get the data from pdfs; per default, it adds to the existing csv-file with the budget data; currently "budget4.csv".
+1) Use extract_from_haushalt-pdf.py to get the data from pdfs; at the beginning of the script, there are a couple of inputs that need to be specified like the file where the budget docs can be found and the output. you can also limit the number of pages the code processes within a budget doc if you want to test sth. the current max, 4000 pages, will cover an entire budget doc.
 
 2) !!! Replace "1 ." with "1." in the column "Zweckbestimmung". This is the one manual adjustment happening in the budget spreadsheet.
 
